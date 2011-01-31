@@ -17,17 +17,6 @@ require('facebook-connect').create(app, facebook, onAuthentication);
 var fb-settings = require('./settings');
 
 /**
- * Route Middleware to show a link to redirect to Google's OpenID provider.
- * You probably should replace this with a better view.
- */
-function googlelogin(req, res, next) {
-    res.send('<html><head><title>Google Openid</title></head><body>' +
-        '<a href="/googleopenid/authenticate">Sign in with your ' +
-        '<img src="http://www.google.com/favicon.ico" border="0" />' +
-        ' account</a></body></html>');
-}
-
-/**
  * this route uses googlelogin Route Middleware.
  */
 app.get('/', googlelogin, function(req, res) {
