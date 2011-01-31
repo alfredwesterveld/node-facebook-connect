@@ -10,11 +10,9 @@ var onAuthentication = function(req, res, openid_result) {
 }
 
 var baseURL = 'http://localhost:8888'; // base URL to map to your host
-var facebook = {
-    "id": "
-};
-require('facebook-connect').create(app, facebook, onAuthentication);
 var fb-settings = require('./settings');
+require('facebook-connect').create(app, facebook, onAuthentication);
+
 
 /**
  * this route uses googlelogin Route Middleware.
