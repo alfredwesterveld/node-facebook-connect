@@ -1,0 +1,22 @@
+{ name: 'facebook-connect',
+  description: 'Facebook Connect for node.js',
+  maintainers: [{ 
+    'name': 'Alfred Westerveld',
+    'email': 'alfredwesterveld@gmail.com'}],
+    "dependencies": { 
+        "express" : ">= 0.0.1",
+        "oauth" : ">= 0.0.1",
+        "connect-auth" : ">= 0.0.1"
+    },
+  version: '0.0.1',
+  repository: {
+    'type': 'git',
+    'url': 'https://alfredwesterveld@github.com/alfredwesterveld/node-facebook-connect.git' },
+  bugs: 'https://github.com/alfredwesterveld/node-facebook-connect/issues',
+  'directories' : {
+    'lib' : './lib' },
+  'main' : './lib/facebook-connect.js',
+  "engines" : { 
+    "node" : ">= 0.2.6 < 0.3.0",
+  }
+}
