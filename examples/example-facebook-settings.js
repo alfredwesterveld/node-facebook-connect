@@ -1,3 +1,3 @@
-module.exports.id = "";
-module.exports.secret = "";
-module.exports.callback = "";
+module.exports.ID = "";
+module.exports.SECRET = "";
+module.exports.CALLBACK = "";
