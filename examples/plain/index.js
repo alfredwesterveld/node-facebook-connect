@@ -1,5 +1,4 @@
-//var index = exports = module.exports.start = function() {
-module.exports.start = function() {
+module.exports.create = function() {
     /* Modify these to your required configuration.
      */
     var PORT = 8888;
@@ -7,7 +6,7 @@ module.exports.start = function() {
     var KEY = 'some-key'; // Used to encrypt your cookie.
     var SECRET = 'your sEcret'; // Used to encrypt your cookie.
     // Your facebook settings should also be configured.
-    var SETTINGS = require('./facebook-settings');
+    var SETTINGS = require('./../facebook-settings');
 
     // See http://expressjs.com for more information.
     var express = require('express');
